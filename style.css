@@ -1,5 +1,5 @@
 body {
-    height: 1000px;
+    height: 800px;
     width: 1000px;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .calendar div {
-    background-color: #DBDBDB;
+    background-color:lightyellow;
     height: 70px;
     gap: 3px;
     grid: 150px auto auto auto;
