@@ -24,29 +24,51 @@ body {
 
 .mondays {
     grid-column: 1;
+    text-align:center;
 }
 
 .tuesdays {
     grid-column: 2;
+    text-align:center;
 }
 
 .wednesdays {
     grid-column: 3;
+    text-align:center;
 }
 
 .thursdays {
     grid-column: 4;
+    text-align:center;
 }
 
 .fridays {
     grid-column: 5;
+    text-align:center;
 }
 
 .saturdays {
     grid-column: 6;
+    text-align:center;
 }
 
 .sundays {
     grid-column: 7;
+    text-align:center;
+}
+
+.days {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
 }
 
