@@ -17,7 +17,7 @@ body {
     background-color:lightyellow;
     height: 70px;
     gap: 3px;
-    grid: 150px auto auto auto;
+    grid: 50px auto auto auto;
     outline: #000000 solid 2px;
     width: 70px;
 }
