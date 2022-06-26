@@ -79,10 +79,11 @@ h3 {
 
 .days {
     align-items: center;
+    font-weight: bold;
 }
 .weekdays {
     font-family: sans-serif;
-    color: #FFD24C;
+    color: #FF865E;
 }
 
 .nextmonth {
