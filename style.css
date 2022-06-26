@@ -9,60 +9,68 @@ body {
     color: goldenrod;
 }
 
+h2 {
+    font-family: 'Georgia', 'Times New Roman';
+}
+
+h3 {
+    font-family: 'Georgia', 'Times New Roman';
+}
+
 .calendar {
     display: grid;
+    column-gap: 10px;
 }
 
 .calendar div {
-    background-color:lightyellow;
+    background-color: lightyellow;
     height: 70px;
     gap: 3px;
     grid: 150px auto auto auto;
     outline: #000000 solid 2px;
     width: 70px;
-    border-spacing: 10px;
+  
 }
 
 .mondays {
     grid-column: 1;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
-    
 }
 
 .tuesdays {
     grid-column: 2;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
 }
 
 .wednesdays {
     grid-column: 3;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
 }
 
 .thursdays {
     grid-column: 4;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
 }
 
 .fridays {
     grid-column: 5;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
 }
 
 .saturdays {
     grid-column: 6;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
 }
 
 .sundays {
     grid-column: 7;
-    text-align:center;
+    text-align: center;
     font-size: 15px;
 }
 
