@@ -2,7 +2,7 @@
 
 html, body {
     background-color: #FFFFFF;
-    height: 600px;
+    height: 700px;
     margin: 0px;
     padding: 0px;
     width: 677px;
@@ -41,10 +41,14 @@ td {
 
 td:hover {
     background-color: #EDEDED;
-    transition-duration: 1500ms;
+    transition-duration: 500ms;
 }
 
 
 .nextmonth {
+    color: #00000080
+}
+
+.lastmonth {
     color: #00000080
 }
