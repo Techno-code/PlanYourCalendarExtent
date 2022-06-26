@@ -31,31 +31,40 @@ body {
 .tuesdays {
     grid-column: 2;
     text-align:center;
+    font-size: 15px;
 }
 
 .wednesdays {
     grid-column: 3;
     text-align:center;
+    font-size: 15px;
 }
 
 .thursdays {
     grid-column: 4;
     text-align:center;
+    font-size: 15px;
 }
 
 .fridays {
     grid-column: 5;
     text-align:center;
+    font-size: 15px;
 }
 
 .saturdays {
     grid-column: 6;
     text-align:center;
+    font-size: 15px;
 }
 
 .sundays {
     grid-column: 7;
     text-align:center;
+    font-size: 15px;
 }
 
 
+.days {
+  padding: 50px 0;
+}
