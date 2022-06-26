@@ -19,7 +19,7 @@ body {
     gap: 3px;
     grid: 150px auto auto auto;
     outline: #000000 solid 2px;
-    width: 105px;
+    width: 70px;
 }
 
 .mondays {
@@ -66,5 +66,5 @@ body {
 }
 
 .days {
-    padding: 35px, 0, 0, 0;
+    align-items: center;
 }
