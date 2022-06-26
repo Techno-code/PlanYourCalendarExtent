@@ -6,24 +6,25 @@ body {
 .header {
     font-size: 40px;
     font-family: sans-serif;
-    color: goldenrod;
+    color:#FFD24C;
 }
 
 h2 {
     font-family: 'Georgia', 'Times New Roman';
+    color: #92B4EC;
 }
 
 h3 {
     font-family: 'Georgia', 'Times New Roman';
+    color: #92B4EC;
 }
 
 .calendar {
     display: grid;
-    column-gap: 10px;
 }
 
 .calendar div {
-    background-color: lightyellow;
+    background-color: #FFE69A;
     height: 70px;
     gap: 3px;
     grid: 150px auto auto auto;

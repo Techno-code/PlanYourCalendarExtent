@@ -1,3 +1,7 @@
-To test this extension: 
-1) Download the .zip file from our GitHub
-2) Go to 
+To test this extension (Google Chrome required): 
+  1) Download the .zip file from our GitHub
+  2) Go to "chrome://extensions"
+  3) Unzip the file and click "Load unpacked"
+  4) Select the file inside the unzipped folder with the same name as it
+  5) The extension should now appear in your extensions, in the jigsaw piece at the top right of the screen, where you can interact with it
+  6) If the extension does not appear, just imagine the most beautiful calendar you've ever seen, and award points based on that
