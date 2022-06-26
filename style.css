@@ -13,6 +13,7 @@ body {
 h2 {
     font-family: 'Georgia', 'Times New Roman';
     color: #92B4EC;
+    font-size: 25px;
 }
 
 h3 {
@@ -78,4 +79,12 @@ h3 {
 
 .days {
     align-items: center;
+}
+.weekdays {
+    font-family: sans-serif;
+    color: #FFD24C;
+}
+
+.nextmonth {
+  color: rgba(0, 0, 0, 0.5)
 }
