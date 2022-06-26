@@ -25,8 +25,8 @@ body {
 .mondays {
     grid-column: 1;
     text-align:center;
-    
     font-size: 15px;
+    vertical-align:middle;
 }
 
 .tuesdays {
@@ -60,14 +60,3 @@ body {
 }
 
 
-.days {
-  position: absolute;
-
-  top: 50%;
-
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  margin: 0;
-}
