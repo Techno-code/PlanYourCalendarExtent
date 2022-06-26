@@ -1,10 +1,32 @@
-let color = '#2e8b57';
+/*
+let changeColor = document.getElementById("changeColor");
 
-chrome.runtime.onInstalled.addListener(() => {
-	chrome.storage.sync.set({ color });
-	console.log('Default background color set to %cgreen', `color: ${color}`);
+chrome.storage.sync.get("color", ({ color }) => {
+	changeColor.style.backgroundColor = color;
 });
 
-var todayday = new Date();
-var todayday = today.getDate();
-// document.getElementById("today").innerHTML = 
+changeColor.addEventListener("click", async () => {
+	let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+
+	chrome.scripting.executeScript({
+		target: { tabId: tab.id },
+		function: setPageBackgroundColor,
+	});
+});
+
+function setPageBackgroundColor() {
+	chrome.storage.sync.get("color", ({ color }) => {
+		document.body.style.backgroundColor = color;
+	});
+}*/
+
+let buttonTest = document.getElementById("buttonTest");
+
+buttonTest.addEventListener("click", async () => {
+	let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+
+	chrome.scripting.executeScript({
+		target: { tabId: tab.id },
+		function: setPageBackgroundColor,
+	});
+});

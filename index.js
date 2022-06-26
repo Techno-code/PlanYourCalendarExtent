@@ -1,21 +1,7 @@
-// Initialize button with user's preferred color
-let changeColor = document.getElementById("changeColor");
-
-chrome.storage.sync.get("color", ({ color }) => {
-	changeColor.style.backgroundColor = color;
-});
-
-changeColor.addEventListener("click", async () => {
-	let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-
-	chrome.scripting.executeScript({
-		target: { tabId: tab.id },
-		function: setPageBackgroundColor,
-	});
-});
-
-function setPageBackgroundColor() {
-	chrome.storage.sync.get("color", ({ color }) => {
-		document.body.style.backgroundColor = color;
-	});
+function addEvent() {
+    const id = document.getElementById("31");
+    const p = document.createElement("p");
+    const text = document.createTextNode("You have a new event here!");
+    p.append(text);
+    id.appendChild(p);
 }

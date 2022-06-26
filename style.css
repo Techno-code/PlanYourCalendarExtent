@@ -1,95 +1,50 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    background-color: #FFFFFF;
     height: 600px;
-    width: 670px;
-    background-color: #FFFDDE;
+    margin: 0px;
+    padding: 0px;
+    width: 677px;
 }
 
-.header {
-    font-size: 40px;
-    font-family: sans-serif;
-    color: #FFD24C;
+.calendar-head {
+    background-color: #F8F8F8;
+    margin-top: -40px;
+    padding: 50px 0px 0px 0px;
+    width: 100%;
 }
 
-h1 {
-    font-family: 'Georgia', 'Times New Roman';
-    color: #92B4EC;
-    font-size: 25px;
+.calendar-head h2 {
+    color: #9F9F9F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-left: 30px;
+    padding: 0px 0px 10px 0px;
 }
 
-h2 {
-    font-family: sans-serif;
-    color: #FFD24C;
-    font-size: 40px;
-    
+table {
+    margin-left: 30px;
 }
 
-.calendar {
-    display: grid;
-}
-
-.calendar div {
-    background-color: white;
-    height: 70px;
-    gap: 3px;
-    grid: 150px auto auto auto;
-    outline: #000000 solid 2px;
-    width: 70px;
-}
-
-.mondays {
-    grid-column: 1;
-    text-align: center;
+th {
+    font-family: 'Roboto', sans-serif;
+    color: #696969;
     font-size: 15px;
+    padding: 0px 0px 25px 0px;
+    text-align: left;
 }
 
-.tuesdays {
-    grid-column: 2;
-    text-align: center;
-    font-size: 15px;
+td {
+    padding: 5px 70px 60px 5px;
 }
 
-.wednesdays {
-    grid-column: 3;
-    text-align: center;
-    font-size: 15px;
+td:hover {
+    background-color: #EDEDED;
+    transition-duration: 1500ms;
 }
 
-.thursdays {
-    grid-column: 4;
-    text-align: center;
-    font-size: 15px;
-}
-
-.fridays {
-    grid-column: 5;
-    text-align: center;
-    font-size: 15px;
-}
-
-.saturdays {
-    grid-column: 6;
-    text-align: center;
-    font-size: 15px;
-}
-
-.sundays {
-    grid-column: 7;
-    text-align: center;
-    font-size: 15px;
-}
-
-.days {
-    align-items: center;
-    font-weight: bold;
-}
-
-.weekdays {
-    font-family: sans-serif;
-    color: #FF865E;
-    align-items: center;
-    font-size: 15px;
-}
 
 .nextmonth {
-    color: rgba(0, 0, 0, 0.5)
+    color: #00000080
 }
