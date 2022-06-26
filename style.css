@@ -1,6 +1,6 @@
 body {
     height: 600px;
-    width: 1000px;
+    width: 600px;
     background-color: #FFFDDE;
 }
 
@@ -13,7 +13,7 @@ body {
 h2 {
     font-family: 'Georgia', 'Times New Roman';
     color: #92B4EC;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 h3 {
