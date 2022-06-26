@@ -25,6 +25,16 @@ body {
 .mondays {
     grid-column: 1;
     text-align:center;
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    font-size: 15px;
 }
 
 .tuesdays {
