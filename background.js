@@ -7,4 +7,4 @@ chrome.runtime.onInstalled.addListener(() => {
 
 var todayday = new Date();
 var todayday = today.getDate();
-document.getElementById("today").innerHTML = 
+// document.getElementById("today").innerHTML = 
