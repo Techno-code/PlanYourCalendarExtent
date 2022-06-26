@@ -1,3 +1,8 @@
+function randGen() {
+    const crypto = require('crypto');
+    crypto.randomBytes(16).toString('base64');
+}
+
 function addEvent(number) {
     const id = document.getElementById(number);
     const p = document.createElement("p");

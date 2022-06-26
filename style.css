@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html, body {
-    background-color: #FFFFFF;
+    background-color: #ebf38c;
     height: 700px;
     margin: 0px;
     padding: 0px;
@@ -9,14 +9,14 @@ html, body {
 }
 
 .calendar-head {
-    background-color: #F8F8F8;
+    background-color: #28afb0;
     margin-top: -40px;
     padding: 50px 0px 0px 0px;
     width: 100%;
 }
 
 .calendar-head h2 {
-    color: #9F9F9F;
+    color: #19647e;
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     margin-left: 30px;
@@ -40,7 +40,7 @@ td {
 }
 
 td:hover {
-    background-color: #EDEDED;
+    background-color: #a7bbec;
     transition-duration: 500ms;
 }
 
