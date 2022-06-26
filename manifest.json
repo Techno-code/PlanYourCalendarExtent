@@ -1,25 +1,27 @@
 {
-  "name": "PlanYourYear: Calendar for Chrome",
-  "description": "Add events with specific time spots on a one-year calendar, including an event title, description, and location (for the 2022 FreyHacks Hackathon).",
-  "version": "1.0",
-  "manifest_version": 3,
-  "background": {
-    "service_worker": "index.js"
-  },
-  "permissions": [ "storage", "activeTab", "scripting" ],
-  "action": {
-  	"default_popup": "popup.html",
-    "default_icon": {
+    "name": "PlanYourYear: Calendar for Chrome",
+    "description": "Add events with specific time spots on a one-year calendar, including an event title, description, and location (for the 2022 FreyHacks Hackathon).",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "index.js"
+    },
+    "permissions": [ "storage", "activeTab", "scripting" ],
+    "chrome_url_overrides": {
+        "newtab": "popup.html"
+    },
+    "action": {
+        "default_icon": {
+            "16": "/images/Plan_Your_Cal_16.png",
+            "32": "/images/Plan_Your_Cal_32.png",
+            "48": "/images/Plan_Your_Cal_48.png",
+            "128": "/images/Plan_Your_Cal_128.png"
+        }
+    },
+    "icons": {
         "16": "/images/Plan_Your_Cal_16.png",
         "32": "/images/Plan_Your_Cal_32.png",
         "48": "/images/Plan_Your_Cal_48.png",
         "128": "/images/Plan_Your_Cal_128.png"
-      }
-  },
-  "icons": {
-    "16": "/images/Plan_Your_Cal_16.png",
-    "32": "/images/Plan_Your_Cal_32.png",
-    "48": "/images/Plan_Your_Cal_48.png",
-    "128": "/images/Plan_Your_Cal_128.png"
-  }
+    }
 }
